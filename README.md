@@ -6,7 +6,7 @@ A simple implementation of FastAPI in Python using CRUD operations.
 
 ## Details
 
-- Developing based on the tutorial [FastAPI Course for Beginners](https://www.youtube.com/watch?v=f7T48W0cwXM) on the [freeCodeCamp YouTube Channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) by [Code With Tomi](https://www.youtube.com/c/CodeWithTomi).
+- Developing based on the tutorial [FastAPI Course for Beginners](https://www.youtube.com/watch?v=tLKKmouUams) on the [freeCodeCamp YouTube Channel](https://www.youtube.com/channel/UC8butISFwT-Wl7EV0hUK0BQ) by [Code With Tomi](https://www.youtube.com/c/CodeWithTomi).
 - Understanding how to use CRUD operations with a "classroom" of students using [FastAPI](https://fastapi.tiangolo.com/) in [Python](https://www.python.org/).
 - Uses [Uvicorn](https://www.uvicorn.org/) as the "lightning fast ASGI server implementation."
 
@@ -24,7 +24,7 @@ A simple implementation of FastAPI in Python using CRUD operations.
 4. Initialize your virtual environment with ```python -m venv venv```
 5. Activate your virtual environment
    1. Windows: ```venv\Scripts\activate```
-   2. Mac/Linux: ```source env\bin\activate```
+   2. Git Bash: ```source venv\\Scripts\\activate```
 6. Install all local packages from the requirements.txt using ```pip install -r requirements.txt```
 7. Run the local uvicorn server with ```uvicorn myapi:app --reload```, where "myapi" is your .py filename.
 8. Check out your local api server! Normally it's at ```https://localhost:8000```, and you can check an interactive docs at ```https://localhost:8000/docs```
